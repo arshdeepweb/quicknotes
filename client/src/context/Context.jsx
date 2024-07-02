@@ -27,12 +27,6 @@ const QuickContextProvider = (props) =>{
 
  
 
-  // const onChangeHandler = (event) =>{
-  //   const name = event.target.name
-  //   const value = event.target.value
-
-  //   setData({...prev,[name]:value})
-  // }
   const [allNotes, setAllNotes] = useState([])
   const contextValue = {
     notes,
